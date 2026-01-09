@@ -48,10 +48,17 @@ These are addressed in the staging layer.
 models/
   staging/
     stg_oas_cahps_survey.sql
+    staging_tests.yml
   intermediate/
+    int_facility_metrics.sql
+    intermediate_tests.yml
   analytics/
+    oas_cahps_metrics.sql
+    analytics_tests.yml
 
 macros/
+    generate_schema_name.sql
 seeds/
+    oas_cahps_footnotes.csv
 snapshots/
 tests/
